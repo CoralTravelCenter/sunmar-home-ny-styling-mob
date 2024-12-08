@@ -1,0 +1,41 @@
+.header-mobile {
+	padding-top: 50px;
+	background-image: url("https://b2ccdn.sunmar.ru/content/mobile-branch.svg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: contain;
+}
+
+.bmKLeM {
+	padding-top: 106px;
+}
+
+#quick-search-tab-area + div .carouselContainer:first-of-type {
+	&::before {
+		content: '';
+		width: min(27%, 98px);
+		height: 50px;
+		background-image: url("https://b2ccdn.sunmar.ru/content/top-ice-mob.svg");
+		position: absolute;
+		z-index: 10;
+		top: -6px;
+		right: 12px;
+	}
+
+	&::after {
+		content: '';
+		width: min(27%, 98px);
+		height: 50px;
+		background-image: url("https://b2ccdn.sunmar.ru/content/top-ice-mob.svg");
+		position: absolute;
+		z-index: 10;
+		bottom: -36px;
+		left: 12px;
+	}
+}
+
+
+
+section[data-hydration-on-demand] div:has(link, style) {
+	padding-block: 0;
+}
